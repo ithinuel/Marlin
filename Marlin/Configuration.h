@@ -556,10 +556,10 @@
   //#define DEFAULT_bedKi 1.41
   //#define DEFAULT_bedKd 1675.16
 
-  // Autotuned using M303 S50 C8 E-1
-  #define DEFAULT_bedKp 99.88
-  #define DEFAULT_bedKi 19.67
-  #define DEFAULT_bedKd 338.20
+  // Autotuned using M303 S65 C5 E-1
+  #define DEFAULT_bedKp 152.90
+  #define DEFAULT_bedKi 24.56
+  #define DEFAULT_bedKd 634.62
   
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
